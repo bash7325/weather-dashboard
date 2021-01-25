@@ -1,52 +1,51 @@
-
 header {
-    padding: 0.5%;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    background-color: rgb(59, 59, 59);
+  padding: 0.5%;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  background-color: rgb(59, 59, 59);
 }
 
 #fivedayCont {
-    text-align-last: center;
+  text-align-last: center;
 }
 
 #searchBtn {
-    border-radius: 5px;
-    background-color:  rgb(59, 59, 59);
-    color: white;
+  border-radius: 5px;
+  background-color: rgb(59, 59, 59);
+  color: white;
 }
 
 .favorable {
-    border-radius: 10px;
-    padding: 5%;
-    background-color: green;
-    color: white;
+  border-radius: 10px;
+  padding: 5%;
+  background-color: green;
+  color: white;
 }
-  
+
 .moderate {
-    border-radius: 10px;
-    padding: 5%;
-    background-color: orange;
-    color: white;
+  border-radius: 10px;
+  padding: 5%;
+  background-color: orange;
+  color: white;
 }
-  
+
 .severe {
-    border-radius: 10px;
-    padding: 5%;
-    background-color: red;
-    color: white;
-} 
+  border-radius: 10px;
+  padding: 5%;
+  background-color: red;
+  color: white;
+}
 
 #cityList {
-    cursor:pointer
+  cursor: pointer;
 }
 
 li {
-    font-size: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 main {
-    height: 100%;
+  height: 100%;
 }

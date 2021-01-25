@@ -28,9 +28,9 @@ $(document).ready(function () {
       $("#currentCityName").text(response.name);
       $("#currentCityName").append(date);
       $("#currentCityName").append(icon);
-      $("#currentCityTemp").text(temp.toFixed(2) + " F");
+      $("#currentCityTemp").text(temp.toFixed(0) + " F");
       $("#currentCityHumid").text(response.main.humidity + "%");
-      $("#currentCityWind").text(response.wind.speed + "MPH");
+      $("#currentCityWind").text(response.wind.speed.toFixed(0) + " MPH");
       //UV index call, change classes to colors depending on index
       var lat = response.coord.lat;
       var lon = response.coord.lon;
@@ -88,7 +88,7 @@ $(document).ready(function () {
           "src",
           "https://openweathermap.org/img/wn/" + weatherIcon + "@2x.png"
         );
-        $("#temp" + counter).text(temp.toFixed(2) + " F");
+        $("#temp" + counter).text(temp.toFixed(0) + " F");
         $("#humid" + counter).text(response.list[i].main.humidity + "%");
         counter++;
       }
@@ -146,9 +146,9 @@ $(document).ready(function () {
   });
   //clear storage and list button
   $("#clearBtn").click(function (event) {
-        localStorage.clear();
-        $("#cityList").text("");
-        $("#fiveDay").hide();
-        $("#currentCity").hide();
-  })
+    localStorage.clear();
+    $("#cityList").text("");
+    $("#fiveDay").hide();
+    $("#currentCity").hide();
+  });
 });

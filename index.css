@@ -38,3 +38,10 @@ header {
     color: white;
 } 
 
+#cityList {
+    cursor:pointer
+}
+
+li {
+    font-size: 20px;
+}

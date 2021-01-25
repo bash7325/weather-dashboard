@@ -144,4 +144,11 @@ $(document).ready(function () {
     var cityOnButton = $(this).text();
     weather(cityOnButton);
   });
+  //clear storage and list button
+  $("#clearBtn").click(function (event) {
+        localStorage.clear();
+        $("#cityList").text("");
+        $("#fiveDay").hide();
+        $("#currentCity").hide();
+  })
 });

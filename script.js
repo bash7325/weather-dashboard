@@ -26,7 +26,7 @@ $(document).ready(function () {
             $("#currentCityTemp").text(temp.toFixed(2) + " F");
             $("#currentCityHumid").text(response.main.humidity + "%");
             $("#currentCityWind").text(response.wind.speed + "MPH");
-
+            //UV index call, change classes to colors depending on index
             var lat = response.coord.lat
             var lon = response.coord.lon
             queryURL = "https://api.openweathermap.org/data/2.5/uvi?appid=" + APIKEY + "&lat=" + lat + "&lon=" + lon;

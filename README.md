@@ -26,6 +26,6 @@ Created a dashboard for users to search for weather conditions in a given city.
 
 # Screenshots
 
-- [Initial page](https://i.imgur.com/w6BnGCi.png)
-- [With search history](https://i.imgur.com/OdE49Z8.png)
-- [UV index](https://i.imgur.com/rxj4vkM.png)
+![Initial page](https://i.imgur.com/w6BnGCi.png)
+![With search history](https://i.imgur.com/OdE49Z8.png)
+![UV index](https://i.imgur.com/rxj4vkM.png)

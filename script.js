@@ -149,6 +149,6 @@ $(document).ready(function () {
     localStorage.clear();
     $("#cityList").text("");
     $("#fiveDay").hide();
-    $("#currentCity").hide();
+    $("#currentCity").hide();S
   });
 });

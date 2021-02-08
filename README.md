@@ -21,6 +21,14 @@ Created a dashboard for users to search for weather conditions in a given city.
 - [Open Weather API](https://openweathermap.org/api)
 - [Bootswatch](https://bootswatch.com/)
 
+# Technologies used
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Jquery
+- Server Side API's (Open Weather, Moment)
+
 # Deployed Project
 - [Weather Dashboard](https://bash7325.github.io/weather-dashboard/)
 
